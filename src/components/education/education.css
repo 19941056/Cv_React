@@ -1,0 +1,17 @@
+.education-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.education-card{
+   padding: 0 40px;
+   width: 40%;
+    border-radius: 5px;
+    background: rgba(240, 248, 255, 0.241);
+}
+.name{
+    font-size: 14px;
+    font-weight: 600;
+}
