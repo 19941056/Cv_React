@@ -3,38 +3,14 @@ import "./App.css";
 import Hero from "./components/hero/hero";
 import Education from "./components/education/education";
 import Experience from "./components/experience/experience";
+import More from "./components/more/more";
 import { CV } from './CV/CV';
 import React from 'react'
 
-const{hero,education,experience}=CV;
+const{hero,education,experience,languages,habilities}=CV;
 
 
-/*function Boton(){
-  const[showEducation,setShowEducation]=useState(true);
-  return(
-      <><><button
-      className="btn"
-      onClick={() => setShowEducation(true)}
-    >Education
-    </button>
-      <button
-        className="btn"
-        onClick={() => setShowEducation(false)}
-      >Experience
-      </button></>
-      
-      <div>
-        {showEducation? (
-          <Education education={education}/>
-        ):(
-          <Experience experience={experience}/>
-        )
-        }
-      </div></>
 
-  );
-};
-*/
 
 
 
@@ -62,6 +38,10 @@ const App = () => {
           <Experience experience={experience} />
         )}
       </div>
+      <More
+        languages={languages}
+        habilities={habilities}
+      />
       
 
       

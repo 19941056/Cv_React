@@ -51,7 +51,7 @@ export const CV = {
     ],
     languages: {
       language: "English",
-      wrlevel: "Medium",
+      splevel: "Medium",
       
     },
     habilities: [
