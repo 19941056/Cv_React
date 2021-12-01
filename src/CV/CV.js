@@ -56,8 +56,11 @@ export const CV = {
     },
     habilities: [
       "React",
-      "Angular Programming",
+      "Angular",
       "Mongo",
+      "Node",
+      "PHP"
+
       
     ],
    
